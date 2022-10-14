@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA1BE40E28F972400046E59C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1BE40D28F972400046E59C /* AppDelegate.swift */; };
+		CA1BE41028F972400046E59C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1BE40F28F972400046E59C /* SceneDelegate.swift */; };
+		CA1BE41228F972400046E59C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1BE41128F972400046E59C /* ViewController.swift */; };
+		CA1BE41528F972400046E59C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1BE41328F972400046E59C /* Main.storyboard */; };
+		CA1BE41728F972410046E59C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA1BE41628F972410046E59C /* Assets.xcassets */; };
+		CA1BE41A28F972410046E59C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1BE41828F972410046E59C /* LaunchScreen.storyboard */; };
+		CA1BE42528F972410046E59C /* TossBenefitTapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1BE42428F972410046E59C /* TossBenefitTapTests.swift */; };
+		CA1BE42F28F972410046E59C /* TossBenefitTapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1BE42E28F972410046E59C /* TossBenefitTapUITests.swift */; };
+		CA1BE43128F972410046E59C /* TossBenefitTapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1BE43028F972410046E59C /* TossBenefitTapUITestsLaunchTests.swift */; };
+		CA1BE44028F972BC0046E59C /* BeneFitListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1BE43F28F972BC0046E59C /* BeneFitListViewController.swift */; };
+		CA1BE44228F974D30046E59C /* BeneFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1BE44128F974D30046E59C /* BeneFit.swift */; };
+		CA1BE44428F974E60046E59C /* MyPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1BE44328F974E60046E59C /* MyPoint.swift */; };
+		CA1BE44928F978B50046E59C /* MyPointCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1BE44828F978B50046E59C /* MyPointCell.swift */; };
+		CA1BE44B28F978DD0046E59C /* TodayBenefitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1BE44A28F978DD0046E59C /* TodayBenefitCell.swift */; };
+		CA1BE44D28F978ED0046E59C /* BenefitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1BE44C28F978ED0046E59C /* BenefitCell.swift */; };
+		CA1BE44F28F97CA60046E59C /* TodaySectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1BE44E28F97CA60046E59C /* TodaySectionItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA1BE42128F972410046E59C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA1BE40228F972400046E59C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA1BE40928F972400046E59C;
+			remoteInfo = TossBenefitTap;
+		};
+		CA1BE42B28F972410046E59C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA1BE40228F972400046E59C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA1BE40928F972400046E59C;
+			remoteInfo = TossBenefitTap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA1BE40A28F972400046E59C /* TossBenefitTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TossBenefitTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1BE40D28F972400046E59C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA1BE40F28F972400046E59C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CA1BE41128F972400046E59C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA1BE41428F972400046E59C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA1BE41628F972410046E59C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA1BE41928F972410046E59C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA1BE41B28F972410046E59C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA1BE42028F972410046E59C /* TossBenefitTapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TossBenefitTapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1BE42428F972410046E59C /* TossBenefitTapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TossBenefitTapTests.swift; sourceTree = "<group>"; };
+		CA1BE42A28F972410046E59C /* TossBenefitTapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TossBenefitTapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1BE42E28F972410046E59C /* TossBenefitTapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TossBenefitTapUITests.swift; sourceTree = "<group>"; };
+		CA1BE43028F972410046E59C /* TossBenefitTapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TossBenefitTapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CA1BE43F28F972BC0046E59C /* BeneFitListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeneFitListViewController.swift; sourceTree = "<group>"; };
+		CA1BE44128F974D30046E59C /* BeneFit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeneFit.swift; sourceTree = "<group>"; };
+		CA1BE44328F974E60046E59C /* MyPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPoint.swift; sourceTree = "<group>"; };
+		CA1BE44828F978B50046E59C /* MyPointCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPointCell.swift; sourceTree = "<group>"; };
+		CA1BE44A28F978DD0046E59C /* TodayBenefitCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayBenefitCell.swift; sourceTree = "<group>"; };
+		CA1BE44C28F978ED0046E59C /* BenefitCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenefitCell.swift; sourceTree = "<group>"; };
+		CA1BE44E28F97CA60046E59C /* TodaySectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaySectionItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA1BE40728F972400046E59C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1BE41D28F972410046E59C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1BE42728F972410046E59C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA1BE40128F972400046E59C = {
+			isa = PBXGroup;
+			children = (
+				CA1BE40C28F972400046E59C /* TossBenefitTap */,
+				CA1BE42328F972410046E59C /* TossBenefitTapTests */,
+				CA1BE42D28F972410046E59C /* TossBenefitTapUITests */,
+				CA1BE40B28F972400046E59C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA1BE40B28F972400046E59C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA1BE40A28F972400046E59C /* TossBenefitTap.app */,
+				CA1BE42028F972410046E59C /* TossBenefitTapTests.xctest */,
+				CA1BE42A28F972410046E59C /* TossBenefitTapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA1BE40C28F972400046E59C /* TossBenefitTap */ = {
+			isa = PBXGroup;
+			children = (
+				CA1BE40D28F972400046E59C /* AppDelegate.swift */,
+				CA1BE40F28F972400046E59C /* SceneDelegate.swift */,
+				CA1BE41128F972400046E59C /* ViewController.swift */,
+				CA1BE44728F9751E0046E59C /* Home */,
+				CA1BE44628F9750A0046E59C /* Model */,
+				CA1BE41628F972410046E59C /* Assets.xcassets */,
+				CA1BE41828F972410046E59C /* LaunchScreen.storyboard */,
+				CA1BE41B28F972410046E59C /* Info.plist */,
+			);
+			path = TossBenefitTap;
+			sourceTree = "<group>";
+		};
+		CA1BE42328F972410046E59C /* TossBenefitTapTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA1BE42428F972410046E59C /* TossBenefitTapTests.swift */,
+			);
+			path = TossBenefitTapTests;
+			sourceTree = "<group>";
+		};
+		CA1BE42D28F972410046E59C /* TossBenefitTapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA1BE42E28F972410046E59C /* TossBenefitTapUITests.swift */,
+				CA1BE43028F972410046E59C /* TossBenefitTapUITestsLaunchTests.swift */,
+			);
+			path = TossBenefitTapUITests;
+			sourceTree = "<group>";
+		};
+		CA1BE44628F9750A0046E59C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA1BE44128F974D30046E59C /* BeneFit.swift */,
+				CA1BE44328F974E60046E59C /* MyPoint.swift */,
+				CA1BE44E28F97CA60046E59C /* TodaySectionItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA1BE44728F9751E0046E59C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CA1BE43F28F972BC0046E59C /* BeneFitListViewController.swift */,
+				CA1BE44828F978B50046E59C /* MyPointCell.swift */,
+				CA1BE44A28F978DD0046E59C /* TodayBenefitCell.swift */,
+				CA1BE44C28F978ED0046E59C /* BenefitCell.swift */,
+				CA1BE41328F972400046E59C /* Main.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA1BE40928F972400046E59C /* TossBenefitTap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA1BE43428F972410046E59C /* Build configuration list for PBXNativeTarget "TossBenefitTap" */;
+			buildPhases = (
+				CA1BE40628F972400046E59C /* Sources */,
+				CA1BE40728F972400046E59C /* Frameworks */,
+				CA1BE40828F972400046E59C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TossBenefitTap;
+			productName = TossBenefitTap;
+			productReference = CA1BE40A28F972400046E59C /* TossBenefitTap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA1BE41F28F972410046E59C /* TossBenefitTapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA1BE43728F972410046E59C /* Build configuration list for PBXNativeTarget "TossBenefitTapTests" */;
+			buildPhases = (
+				CA1BE41C28F972410046E59C /* Sources */,
+				CA1BE41D28F972410046E59C /* Frameworks */,
+				CA1BE41E28F972410046E59C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA1BE42228F972410046E59C /* PBXTargetDependency */,
+			);
+			name = TossBenefitTapTests;
+			productName = TossBenefitTapTests;
+			productReference = CA1BE42028F972410046E59C /* TossBenefitTapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA1BE42928F972410046E59C /* TossBenefitTapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA1BE43A28F972410046E59C /* Build configuration list for PBXNativeTarget "TossBenefitTapUITests" */;
+			buildPhases = (
+				CA1BE42628F972410046E59C /* Sources */,
+				CA1BE42728F972410046E59C /* Frameworks */,
+				CA1BE42828F972410046E59C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA1BE42C28F972410046E59C /* PBXTargetDependency */,
+			);
+			name = TossBenefitTapUITests;
+			productName = TossBenefitTapUITests;
+			productReference = CA1BE42A28F972410046E59C /* TossBenefitTapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA1BE40228F972400046E59C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CA1BE40928F972400046E59C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					CA1BE41F28F972410046E59C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CA1BE40928F972400046E59C;
+					};
+					CA1BE42928F972410046E59C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CA1BE40928F972400046E59C;
+					};
+				};
+			};
+			buildConfigurationList = CA1BE40528F972400046E59C /* Build configuration list for PBXProject "TossBenefitTap" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA1BE40128F972400046E59C;
+			productRefGroup = CA1BE40B28F972400046E59C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA1BE40928F972400046E59C /* TossBenefitTap */,
+				CA1BE41F28F972410046E59C /* TossBenefitTapTests */,
+				CA1BE42928F972410046E59C /* TossBenefitTapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA1BE40828F972400046E59C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1BE41A28F972410046E59C /* LaunchScreen.storyboard in Resources */,
+				CA1BE41728F972410046E59C /* Assets.xcassets in Resources */,
+				CA1BE41528F972400046E59C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1BE41E28F972410046E59C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1BE42828F972410046E59C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA1BE40628F972400046E59C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1BE44928F978B50046E59C /* MyPointCell.swift in Sources */,
+				CA1BE41228F972400046E59C /* ViewController.swift in Sources */,
+				CA1BE44D28F978ED0046E59C /* BenefitCell.swift in Sources */,
+				CA1BE40E28F972400046E59C /* AppDelegate.swift in Sources */,
+				CA1BE44F28F97CA60046E59C /* TodaySectionItem.swift in Sources */,
+				CA1BE44428F974E60046E59C /* MyPoint.swift in Sources */,
+				CA1BE44028F972BC0046E59C /* BeneFitListViewController.swift in Sources */,
+				CA1BE44228F974D30046E59C /* BeneFit.swift in Sources */,
+				CA1BE41028F972400046E59C /* SceneDelegate.swift in Sources */,
+				CA1BE44B28F978DD0046E59C /* TodayBenefitCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1BE41C28F972410046E59C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1BE42528F972410046E59C /* TossBenefitTapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1BE42628F972410046E59C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1BE42F28F972410046E59C /* TossBenefitTapUITests.swift in Sources */,
+				CA1BE43128F972410046E59C /* TossBenefitTapUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA1BE42228F972410046E59C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA1BE40928F972400046E59C /* TossBenefitTap */;
+			targetProxy = CA1BE42128F972410046E59C /* PBXContainerItemProxy */;
+		};
+		CA1BE42C28F972410046E59C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA1BE40928F972400046E59C /* TossBenefitTap */;
+			targetProxy = CA1BE42B28F972410046E59C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA1BE41328F972400046E59C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA1BE41428F972400046E59C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA1BE41828F972410046E59C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA1BE41928F972410046E59C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA1BE43228F972410046E59C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA1BE43328F972410046E59C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA1BE43528F972410046E59C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7KZRR8J57;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TossBenefitTap/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.kyuu.TossBenefitTap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA1BE43628F972410046E59C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7KZRR8J57;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TossBenefitTap/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.kyuu.TossBenefitTap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA1BE43828F972410046E59C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7KZRR8J57;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.kyuu.TossBenefitTapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TossBenefitTap.app/TossBenefitTap";
+			};
+			name = Debug;
+		};
+		CA1BE43928F972410046E59C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7KZRR8J57;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.kyuu.TossBenefitTapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TossBenefitTap.app/TossBenefitTap";
+			};
+			name = Release;
+		};
+		CA1BE43B28F972410046E59C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7KZRR8J57;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.kyuu.TossBenefitTapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TossBenefitTap;
+			};
+			name = Debug;
+		};
+		CA1BE43C28F972410046E59C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7KZRR8J57;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.kyuu.TossBenefitTapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TossBenefitTap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA1BE40528F972400046E59C /* Build configuration list for PBXProject "TossBenefitTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1BE43228F972410046E59C /* Debug */,
+				CA1BE43328F972410046E59C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA1BE43428F972410046E59C /* Build configuration list for PBXNativeTarget "TossBenefitTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1BE43528F972410046E59C /* Debug */,
+				CA1BE43628F972410046E59C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA1BE43728F972410046E59C /* Build configuration list for PBXNativeTarget "TossBenefitTapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1BE43828F972410046E59C /* Debug */,
+				CA1BE43928F972410046E59C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA1BE43A28F972410046E59C /* Build configuration list for PBXNativeTarget "TossBenefitTapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1BE43B28F972410046E59C /* Debug */,
+				CA1BE43C28F972410046E59C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA1BE40228F972400046E59C /* Project object */;
+}
